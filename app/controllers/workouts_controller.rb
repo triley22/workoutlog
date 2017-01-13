@@ -12,6 +12,10 @@ class WorkoutsController < ApplicationController
     @workout = Workout.new
   end
 
+  def format_date
+    self.date = DateTime.strptime(date, format)
+  end
+
   def create
     @workout = Workout.new(workout_params)
     if @workout.save
