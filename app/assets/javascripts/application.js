@@ -14,8 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require turbolinks
-//= require_tree .
 
-$ (function() {
-	$("#ui-datepicker").datepicker();
+$(function() {
+	$(".ui-datepicker").datepicker({ dateFormat: 'dd/mm/yy'});
 });

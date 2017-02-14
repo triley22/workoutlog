@@ -1,24 +1,5 @@
-# README
+Workout Log Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ability to create, edit, and destroy workouts.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Workouts can contain multiple exercises with sets and reps for the exercise.
